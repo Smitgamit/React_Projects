@@ -12,7 +12,7 @@ export default class App extends Component {
   }
   
   fetchData = async () => {
-    const response = await fetch('http://103.240.35.250:8080/api/items' , {
+    const response = await fetch('http://<------API Here------->' , {
      credentials: 'include',
      method: 'GET',
      headers: {
